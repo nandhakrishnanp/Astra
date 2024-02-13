@@ -40,7 +40,9 @@
     }
    
    .Msg-card{
-       visibility: hidden;
+           position: absolute;
+           left: -333px;
+           visibility: hidden;
    }
 
   }
