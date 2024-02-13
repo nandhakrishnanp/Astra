@@ -141,3 +141,7 @@ body{
   background-image: url('https://img.freepik.com/free-vector/elegant-gradient-violet-wavy-net-background_23-2148402778.jpg?w=740&t=st=1707729442~exp=1707730042~hmac=e26e63c2050c11fd0e4dbdab81ed47e4fdb65271a07d199d498ab6af6dcb0acb');
   background-size: cover;
 }
+
+*{
+  overflow-x: hidden;
+}
