@@ -142,3 +142,43 @@ body{
   background-size: cover;
 }
 
+.card{
+  position: relative;
+}
+
+.card:hover{
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  cursor: pointer;
+}
+
+.vicon{
+  position: absolute;
+  top: 25%;
+  left: 45%;
+  font-size: 30px;
+  width: 100%;
+  height: 50%;
+  color: #ffffff;
+  opacity: 0;
+  transition: 0.2s ease;
+  
+}
+
+.card:hover .vicon {
+  opacity: 1;
+}
+
+.card:hover .card-img-top {
+  filter: brightness(70%); /* Adjust the percentage as needed */
+}
+
+a{
+  text-decoration: none;
+}
+
+.card{
+  outline: none;
+  border: none;
+  background-color: #f7f7f7;
+}
+ 

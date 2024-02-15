@@ -120,8 +120,8 @@
 
 .Msg-card{
     position: absolute;
-    border-top-left-radius: 250px;
-    border-bottom-left-radius: 250px;
+    border-top-left-radius: 260px;
+    border-bottom-left-radius: 260px;
     display: flex;
     
     align-items: center;
