@@ -72,7 +72,7 @@ const Nav = () => {
     <div className="container-fluid bg4" id='Work'>
         <h1 className='cl text-center' >My Recent Works</h1>
 
-        <div className="card-box p-3 ">
+        <div className="card-box ">
             <div className="row  "  >
                 <div className="col-md-4">
                   <a className='unstyled' href="https://github.com/nandhakrishnanp/Comet">
