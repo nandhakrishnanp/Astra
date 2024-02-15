@@ -157,7 +157,7 @@ const Nav = () => {
 
 
       {/* Contact page*/}
-      <div  id='Contact' className="contact  ">
+      <div  id='Contact' className="contact w110  ">
            <h1 className='ps-5 cl pt-5 ' > Let's Collaborate</h1>
            <div className="container">
            <form className="contact-form mt-5 p-4 ">
