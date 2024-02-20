@@ -99,7 +99,7 @@ const Home = () => {
      data-aos-duration="500">
        <div className='wrap'></div>
         <h5 class="card-title pop">Team Brainiacs</h5>
-        <p class="card-text">Brainiacs : Fueling Passion, Driving Excellence </p>
+        <p class="card-text">Brainiacs - Ekart Racing  : Fueling Passion, Driving Excellence </p>
         <a href="#" class="btn btn-primary">Visit Page <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
       </div>
     </div>
