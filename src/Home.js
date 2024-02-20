@@ -85,7 +85,7 @@ const Home = () => {
      data-aos-easing="linear"
      data-aos-duration="500">
         <h5 class="card-title pop">Team Astra</h5>
-        <p class="card-text">Ekart Racing Team Astra: Fueling Passion, Driving Excellence</p>
+        <p class="card-text"> Solar Kart Racing Team: Powering Innovation, Racing towards Sustainability </p>
         <a href="#" class="btn btn-primary">Visit Page <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
       </div>
     </div>
@@ -99,7 +99,7 @@ const Home = () => {
      data-aos-duration="500">
        <div className='wrap'></div>
         <h5 class="card-title pop">Team Brainiacs</h5>
-        <p class="card-text">Brainiacs Solar Kart Racing Team: Powering Innovation, Racing towards Sustainability</p>
+        <p class="card-text">Brainiacs : Fueling Passion, Driving Excellence </p>
         <a href="#" class="btn btn-primary">Visit Page <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
       </div>
     </div>
