@@ -1,0 +1,217 @@
+* {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.pop {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rob {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.ubu {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+:root {
+    --color1: #27374D;
+    --color2: #526D82;
+    --color3: #9DB2BF;
+    --color4: #DDE6ED;
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: var(--color2);
+   
+}
+
+.offcanvas{
+    background-color: var(--color1);
+}
+.navbar  h3{
+    color:var(--color4);
+}
+
+.nav-link{
+    color: var(--color4);
+}
+.nav-link:hover{
+    color: var(--color3) !important;
+}
+.white {
+    color: var(--color4);
+}
+
+/* Navbar styles */
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.btn-close:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+   
+  
+}
+
+
+
+.nav-item:hover {
+    border-bottom: 2px solid var(--color3);
+}
+
+.bg {
+    background-color: #f7f7f7;
+}
+
+.bg2 {
+    background-color: var(--color1);
+}
+
+.nav-link {
+    margin: 0px 10px 0px 10px;
+}
+
+.bg4 {
+    background-color: #ffffff;
+    padding: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.imgs {
+    width: 105px;
+}
+
+
+
+.w100 {
+    height: 100vh;
+}
+
+@keyframes slide {
+    to {
+        margin-left: 400px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+.card{
+    margin: 20px;
+}
+
+}
+
+
+#carouselExampleSlidesOnly {
+    height: 100vh !important;
+    position: relative;
+}
+
+#carouselExampleSlidesOnly h3 {
+    font-size: 40px;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    z-index: 1;
+    color: aliceblue;
+}
+
+#carouselExampleSlidesOnly button {
+   
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    z-index: 1;
+   
+}
+@media only screen and (max-width: 767px) {
+    #carouselExampleSlidesOnly button {
+        top:60%;
+    }
+}
+
+#carouselExampleSlidesOnly img {
+    height: 100vh !important;
+    object-fit: cover;
+}
+
+.gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3));
+}
+
+.card{
+    margin: 50px;
+    margin-top: 20px;
+}
+
+.card {
+    border: 0;
+    background-color: transparent;
+ 
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12), 0 16px 16px rgba(0,0,0,0.12);
+}
+.card img{
+    height: 200px !important;
+    object-fit: contain;
+    padding: 10px;
+}
+
+
+.btn-primary{
+
+    background-color: var(--color1);
+    outline: none;
+    border: none;
+    
+}
+
+.btn-primary:hover{
+    background-color: var(--color2);
+}
+
+.journey i{
+     font-size: 40px;
+     padding: 5px;
+}
+
+.offclose{
+    font-size: 25px;
+    color: white;
+}
+
+.card-body{
+    background-color: var(--color4);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.card img{
+    z-index: 1;
+}
